@@ -23,3 +23,15 @@
 - Columns that should never be null must have a not_null schema test.
 - Columns that should be unique must have a unique schema test.
 - Where possible, use schema tests from the dbt_utils or dbt_expectations packages to perform extra verification.
+
+---
+
+## Course Project 
+
+### Week 1 - Updates
+
+1. Setup project dev environment
+2. Add `dbt_project_evaluator` package + fix violations
+3. Add `SQLFluff`
+4. Add a few more `doc blocks`
+5. Practice custom node colors
