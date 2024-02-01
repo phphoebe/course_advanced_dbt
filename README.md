@@ -35,6 +35,3 @@
 3. Add `SQLFluff`
 4. Add a few more `doc blocks`
 5. Practice custom node colors
-
-
-
