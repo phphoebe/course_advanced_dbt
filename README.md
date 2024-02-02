@@ -26,7 +26,7 @@
 
 ---
 
-## Course Project 
+## Course Project
 
 ### Week 1 - Updates
 
