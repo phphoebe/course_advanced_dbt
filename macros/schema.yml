@@ -1,0 +1,18 @@
+version: 2
+
+macros:
+  - name: rolling_agg_n_periods
+    description: A macro to calculate rolling aggregations
+    arguments:
+      - name: agg
+        type: string
+        description: The aggregation type
+      - name: column_name
+        type: string
+        description: The column to apply the aggregation
+      - name: partition_by
+        type: string
+        description: The column used to partition by
+      - name: n
+        type: integer
+        description: The period time frame
