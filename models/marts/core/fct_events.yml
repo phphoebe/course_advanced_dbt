@@ -5,10 +5,10 @@ models:
       - name: event_id
         data_type: number
         description: '{{ doc("bingeflix_column_event_id") }}'
-        tests: 
+        tests:
           - unique
-          - not_null 
-          
+          - not_null
+
       - name: session_id
         data_type: varchar
         description: '{{ doc("bingeflix_column_session_id") }}'
@@ -24,4 +24,3 @@ models:
       - name: event_name
         data_type: varchar
         description: ""
-

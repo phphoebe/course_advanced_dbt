@@ -26,7 +26,7 @@
 
 ---
 
-## Course Project 
+## Course Project
 
 ### Week 1 - Updates
 
@@ -35,3 +35,11 @@
 3. Add `SQLFluff`
 4. Add a few more `doc blocks`
 5. Practice custom node colors
+
+### Week 2 - Updates
+
+1. Install `pre-commit hooks` + Test & Fix violations
+2. Add `SQLFluff` to `pre-commit hook`
+3. Add more `pre-commit hooks` to enforce project conventions
+4. Add & Document `rolling_agg_n_periods` macro to generalize the `rolling_average_7_periods` macro
+5. Add `date_trunc` macro to optimize the `fcc_mrr` model in future

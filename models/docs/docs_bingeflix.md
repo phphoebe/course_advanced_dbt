@@ -31,5 +31,5 @@ The unique identifier of the event session.
 This section contains documentation from the Bingelix Users table.
 
 {% docs bingeflix_column_user_id %}
-The unique identifier of the Bingeflix user. 
+The unique identifier of the Bingeflix user.
 {% enddocs %}

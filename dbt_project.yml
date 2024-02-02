@@ -24,10 +24,10 @@ models:
     +materialized: view
     +grants:
       select: ['transformer', 'reporter']
-    
+
     staging:
       +schema: staging
-    
+
     intermediate:
       +schema: intermediate
 
@@ -37,6 +37,8 @@ models:
         +docs:
           show: true
           node_color: blue
+        +tags:
+          - "daily"
       finance:
         +schema: finance
         +docs:
@@ -46,7 +48,7 @@ models:
         +schema: product
         +docs:
           show: true
-          node_color: purple 
+          node_color: purple
 
 seeds:
   dbt_project_evaluator:
