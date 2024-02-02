@@ -16,3 +16,12 @@ macros:
       - name: n
         type: integer
         description: The period time frame
+  - name: date_trunc
+    description: A macro to truncates a DATE/TIMESTAMP to the specified precision
+    arguments:
+      - name: date_column
+        type: date
+        description: The column to apply the truncation
+      - name: date_part
+        type: string
+        description: The date/time part precision
