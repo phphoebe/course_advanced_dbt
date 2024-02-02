@@ -37,6 +37,8 @@ models:
         +docs:
           show: true
           node_color: blue
+        +tags:
+          - "daily"
       finance:
         +schema: finance
         +docs:
