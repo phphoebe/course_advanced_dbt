@@ -43,3 +43,9 @@
 3. Add more `pre-commit hooks` to enforce project conventions
 4. Add & Document `rolling_agg_n_periods` macro to generalize the `rolling_average_7_periods` macro
 5. Add `date_trunc` macro to optimize the `fcc_mrr` model in future
+
+### Week 4 - Updates
+
+1. Convert `stg_bingeflix__events` to Incremental
+2. Install & Practice`dbt-snowflake-monitoring` package
+3. Refactor `fct_mrrr.sql` model
