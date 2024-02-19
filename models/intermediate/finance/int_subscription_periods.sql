@@ -1,3 +1,4 @@
+-- Playbook reference - https://github.com/dbt-labs/mrr-playbook/blob/master/models/mrr.sql
 -- Get raw monthly subscriptions
 
 WITH monthly_subscriptions AS (
