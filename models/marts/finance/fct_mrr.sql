@@ -8,19 +8,9 @@ WITH
 -- Import CTEs
 -- Get raw monthly subscriptions
 monthly_subscriptions AS (
-    SELECT
-        subscription_id,
-        user_id,
-        starts_at,
-        ends_at,
-        plan_name,
-        pricing,
-        DATE(DATE_TRUNC('month', starts_at)) AS start_month,
-        DATE(DATE_TRUNC('month', ends_at)) AS end_month
+    SELECT *
     FROM
-        {{ ref('dim_subscriptions') }}
-    WHERE
-        billing_period = 'monthly'
+        {{ ref('int_subscription_periods') }}
 ),
 
 -- Use the dates spine to generate a list of months
