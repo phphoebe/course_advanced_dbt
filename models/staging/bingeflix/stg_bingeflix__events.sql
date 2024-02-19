@@ -12,7 +12,7 @@ WITH source AS (
 
     {% if is_incremental() %}
 
-    WHERE created_at > (SELECT DATEADD('day', -3, MAX(created_at))) FROM {{ this }}
+    {{ incremental_where_clause() }}
 
     {% endif %}
 
