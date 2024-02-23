@@ -49,3 +49,6 @@
 1. Convert `stg_bingeflix__events` to Incremental
 2. Install & Practice`dbt-snowflake-monitoring` package
 3. Refactor `fct_mrrr.sql` model
+
+![image](https://github.com/phphoebe/course_advanced_dbt/assets/64668691/1d6c5a05-2d1b-4a51-ad48-1e68afb8c633)
+
